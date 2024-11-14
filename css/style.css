@@ -59,6 +59,24 @@ header p {
     line-height: 1.6;
 }
 
+/* Sección de Misión */
+#mission {
+    padding: 40px 0;
+    background: #fff;
+    text-align: center;
+}
+
+#mission h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#mission p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
 /* Sección de Proyectos */
 #projects {
     padding: 40px 0;
