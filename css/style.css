@@ -210,8 +210,9 @@ header p {
 }
 
 #contact .social-icon {
-    width: 40px; /* Ajusta el tamaño de los íconos */
-    height: auto;
+    width: 40px; /* Tamaño uniforme para todos los íconos */
+    height: 40px; /* Asegura que todos los íconos sean cuadrados */
+    object-fit: contain; /* Mantiene la proporción de la imagen */
     transition: transform 0.3s ease; /* Efecto de transición al hacer hover */
 }
 
