@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #080808;
     color: #333;
 }
 
@@ -44,8 +44,9 @@ header p {
 /* Sección de Sobre mí */
 #about {
     padding: 40px 0;
-    background: #fff;
+    background: #0a0a0a;
     text-align: center;
+    color: white;
 }
 
 #about h2 {
@@ -122,6 +123,7 @@ header p {
     display: flex; /* Hace que el contenedor de la imagen use flexbox */
     justify-content: center; /* Centra la imagen horizontalmente */
     margin-top: 20px; /* Espaciado opcional */
+    background-color: black;
 }
 
 #projects .proyectos_gif img {
