@@ -60,6 +60,19 @@ header p {
     line-height: 1.6;
 }
 
+/* Estilos para centrar la imagen y ajustar su tamaño */
+#projects .data_science_img {
+    display: flex; /* Hace que el contenedor de la imagen use flexbox */
+    justify-content: center; /* Centra la imagen horizontalmente */
+    margin-top: 20px; /* Espaciado opcional */
+}
+
+#projects .data_science_img img {
+    width: 90%; /* Ajusta el tamaño de la imagen */
+    max-width: 700px; /* Fija un ancho máximo */
+    height: auto; /* Asegura que la proporción de la imagen se mantenga */
+}
+
 /* Sección de Misión */
 #mission {
     padding: 40px 0;
@@ -179,8 +192,9 @@ header p {
 /* Sección de Contacto */
 #contact {
     padding: 40px 0;
-    background: #fff;
+    background: #080808;
     text-align: center;
+    color: #fff;
 }
 
 #contact h2 {
