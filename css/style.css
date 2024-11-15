@@ -189,12 +189,12 @@ header p {
 }
 
 
-/* Sección de Contacto */
+/* Estilos para la sección de Contacto */
 #contact {
     padding: 40px 0;
-    background: #080808;
+    background-color: #080808; /* Fondo negro */
     text-align: center;
-    color: #fff;
+    color: #fff; /* Texto blanco */
 }
 
 #contact h2 {
@@ -202,35 +202,24 @@ header p {
     margin-bottom: 30px;
 }
 
-#contact form {
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: left;
+#contact .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre los íconos */
+    margin-top: 20px;
 }
 
-#contact form input,
-#contact form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+#contact .social-icon {
+    width: 40px; /* Ajusta el tamaño de los íconos */
+    height: auto;
+    transition: transform 0.3s ease; /* Efecto de transición al hacer hover */
 }
 
-#contact form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #04b4e0;
-    border: none;
-    color: #fff;
-    font-size: 1.1em;
-    border-radius: 5px;
-    cursor: pointer;
+/* Efecto hover */
+#contact .social-icon:hover {
+    transform: scale(1.1); /* Hace que los íconos se agranden un poco cuando el mouse pasa por encima */
 }
 
-#contact form button:hover {
-    background-color: #007b8e;
-}
 
 /* Footer Section */
 footer {
@@ -244,3 +233,5 @@ footer {
 footer p {
     font-size: 1em;
 }
+
+
