@@ -44,9 +44,9 @@ header p {
 /* Sección de Sobre mí */
 #about {
     padding: 40px 0;
-    background: black;
+    background: #080808;
     text-align: center;
-    color: rgba(255, 245, 245, 0.781);
+    color: #fff;
 }
 
 #about h2 {
@@ -63,9 +63,10 @@ header p {
 /* Sección de Misión */
 #mission {
     padding: 40px 0;
-    background: black;
+    background: #080808;
     text-align: center;
-    color: rgba(255, 245, 245, 0.781);
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)
 }
 
 #mission h2 {
@@ -92,11 +93,12 @@ header p {
 }
 
 .project {
-    background: #fff;
+    background: #080808;
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
 }
 
 .project h3 {
